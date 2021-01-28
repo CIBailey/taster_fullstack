@@ -35,11 +35,12 @@ The aim of the exercise is to determine ability to:
 
 ## Expected Output
 
-A source code repository with:
+A **source code repository** with:
 
 - Architecture Schema with explanations
 - Documentation to run application & tests locally
 - A Dockerized API, Front & Database
+- [Bonus]: Host the stack
 
 ## Technical Requirements
 
@@ -71,7 +72,7 @@ _Remark : API specifications and endpoints are up to you. You can add more funct
 
 ### Front
 
-The Minimum expected screenrs are the following :
+The Minimum expected screens are the following :
 
 | Resource         | Functionality                                                                                    |
 | ---------------- | ------------------------------------------------------------------------------------------------ |
