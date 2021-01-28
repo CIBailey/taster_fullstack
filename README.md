@@ -124,7 +124,7 @@ $ cd fullstack-exercise
 3. Run docker db container:
 
 ```
-$ docker run -d --name customer-db -e POSTGRES_USER=user -e POSTGRES_PASSWORD=secret -e POSTGRES_DB=customer -p 5432:5432 -e PGDATA=/var/lib/postgresql/data/pgdata -v $(pwd)/db-volume:/var/lib/postgresql/data postgres
+$ docker run -d --name customer-db -e POSTGRES_USER=user -e POSTGRES_PASSWORD=secret -e POSTGRES_DB=customer -p 5432:5432 -e PGDATA=/var/lib/postgresql/data/pgdata -v $(pwd)/db-volume:/var/lib/postgresql/data postgres:12
 ```
 
 1. Wait several seconds before running initialization script for the database to be up:
