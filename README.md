@@ -100,6 +100,7 @@ The database is provided to you and has the following schema :
 | Order    | price          | float        | Order Price                     |
 | Order    | nb_or_articles | integer      | Number of article in the order  |
 | Order    | shift          | String       | Meal time (Lunch or Dinner)     |
+| Order    | customer_uuid  | UUID4        | Order's Customer Unique ID      |
 
 5. You can now connect to the database which contains customers and orders
 
